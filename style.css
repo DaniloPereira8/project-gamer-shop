@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 0.4768032212885154) 35%, rgba(20, 26, 148, 0.998) 100%);
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 30px 0pc 45px 0px;
+    color: #fff;
+    opacity: 0.8;
+    font-weight: 700;
+}
+
+.div-text p {
+    font-size: 14px;
+    width: 100%;
+    color: #fff;
+    line-height: 1.5rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+.div-text{
+    margin: 60px 12px;
+
+}
+
+input {
+    display: block;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    height: 50px;
+    width: 352px;
+    margin-bottom: 20px;
+}
+
+::placeholder{
+    position: relative;
+    left: 10px;
+}
+
+button{
+    display: inline-block;
+    background: #40BB15;
+    border-radius: 5px;
+    width: 175px;
+    height: 48px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #fff;
+    font-weight: 700;
+}
+
+button:hover {
+    background: #828282;
+    opacity: 0.8;
+    color: #000000;
+}
+
+button:active {
+    opacity: 0.7;
+    color: #40bb15;
+}
+
+.voltar{
+    background: #828282;
+}
+
+.voltar:hover{
+    background: #40bb15;;
+}
+
+.ctt{
+    transform: translate(-50%, -50%);
+    position: relative;
+    left: 50%;
+}
+
+textarea {
+    display: block;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    height: 120px;
+    width: 352px;
+    margin-bottom: 20px;
+    font-weight: 400;
+
+}
+
+.text-duvida::placeholder{
+    position: relative;
+    top: 10px;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 1s;
+    font-weight: 400;
+}
+
+div{
+    transition: opacity 1s;
+}
+
+
+@media (max-width: 530px){
+
+    h1{
+        font-size: 22px;
+        margin: 20px 0px;
+    }
+
+    .div-text p{
+        font-size: 13px;
+    }
+
+    form{
+        width: 80%;
+    }
+
+    input{
+        width: 100%;
+    }
+
+    textarea{
+        width: 100%;
+    }
+
+    button{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .ctt{
+        width: 50%;
+    }
+
+ 
+}
